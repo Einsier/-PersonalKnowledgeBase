@@ -1,0 +1,66 @@
+Arguments: 
+  D:\software\installed\nodejs\node.exe C:\Users\Einsier\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js install
+
+PATH: 
+  C:\Users\Einsier\bin;D:\software\installed\Git\mingw64\bin;D:\software\installed\Git\usr\local\bin;D:\software\installed\Git\usr\bin;D:\software\installed\Git\usr\bin;D:\software\installed\Git\mingw64\bin;D:\software\installed\Git\usr\bin;C:\Users\Einsier\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Java\jdk1.8.0_181\bin;C:\Java\jdk1.8.0_181\jre\bin;D:\software\installed\MySQL\MySQL Server 5.5\bin;D:\software\installed\Git\cmd;D:\software\installed\nodejs;D:\software\installed\Python3.7\Scripts;D:\software\installed\Python3.7;C:\Users\Einsier\AppData\Local\Microsoft\WindowsApps;D:\software\installed\Microsoft VS Code\bin;C:\Users\Einsier\AppData\Roaming\npm;D:\software\installed\Git\usr\bin\vendor_perl;D:\software\installed\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  10.16.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/date-fns/-/date-fns-2.16.1.tgz: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (C:\Users\Einsier\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141289:19)
+      at Object.onceWrapper (events.js:286:20)
+      at ClientRequest.emit (events.js:198:13)
+      at TLSSocket.emitRequestTimeout (_http_client.js:662:40)
+      at Object.onceWrapper (events.js:286:20)
+      at TLSSocket.emit (events.js:198:13)
+      at TLSSocket.Socket._onTimeout (net.js:442:8)
+      at ontimeout (timers.js:436:11)
+      at tryOnTimeout (timers.js:300:5)
+      at listOnTimeout (timers.js:263:5)
+
+npm manifest: 
+  {
+    "name": "theme-vdoing-blog",
+    "version": "1.0.0",
+    "scripts": {
+      "dev": "vuepress dev docs",
+      "build": "vuepress build docs",
+      "deploy": "bash deploy.sh",
+      "editFm": "node utils/editFrontmatter.js",
+      "baiduPush": "node utils/baiduPush.js https://xugaoyi.com && bash baiduPush.sh",
+      "publish": "cd ./theme-vdoing && npm publish && cd ../ && npm run updateTheme",
+      "updateTheme": "npm uninstall vuepress-theme-vdoing && rm -rf node_modules && npm i && npm i vuepress-theme-vdoing -D"
+    },
+    "license": "MIT",
+    "devDependencies": {
+      "dayjs": "^1.9.7",
+      "inquirer": "^7.1.0",
+      "json2yaml": "^1.1.0",
+      "vuepress": "1.8.0",
+      "vuepress-plugin-baidu-autopush": "^1.0.1",
+      "vuepress-plugin-baidu-tongji": "^1.0.1",
+      "vuepress-plugin-demo-block": "^0.7.2",
+      "vuepress-plugin-one-click-copy": "^1.0.2",
+      "vuepress-plugin-thirdparty-search": "^1.0.2",
+      "vuepress-plugin-zooming": "^1.1.7",
+      "vuepress-theme-vdoing": "^1.8.3",
+      "yamljs": "^0.3.0"
+    },
+    "dependencies": {
+      "vuepress-plugin-comment": "^0.7.3"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
