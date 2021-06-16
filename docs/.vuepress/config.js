@@ -8,7 +8,7 @@ module.exports = {
 
   title: "Einsier’s space",
   description: '技术博客,学习与总结。个人技术博客,后端,后端开发,后端框架,技术文档,学习,面试,Java,python,git,github,markdown等技术文章。',
-  base: '/personal-knowledge-base/', // 格式：'/<仓库名>/'， 默认'/'
+  base: '/', // 格式：'/<仓库名>/'， 默认'/'
   markdown: {
     lineNumbers: true, // 代码行号
   },
