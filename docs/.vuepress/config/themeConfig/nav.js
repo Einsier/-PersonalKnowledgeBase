@@ -62,6 +62,7 @@ module.exports = [
       { text: '实用网站', link: '/pages/05805b/' },
       { text: '技术资源', link: '/pages/1f9c4c/' },
       { text: '书影清单', link: '/pages/a6775b/' },
+      { text: '好文记录', link: '/pages/8db7c4/' },
     ],
   },
 ]
