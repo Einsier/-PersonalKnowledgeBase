@@ -49,13 +49,13 @@ module.exports = [
       { text: '折腾笔记', link: '/pages/7177a0/' },
     ],
   },
-  {
-    text: '更多',
-    link: '/more/',
-    items: [
-      { text: '英语', link: '' },
-    ],
-  },
+  // {
+  //   text: '更多',
+  //   link: '/more/',
+  //   items: [
+  //     { text: '', link: '/pages/3c7547/' },
+  //   ],
+  // },
   {
     text: '收藏',
     items: [
