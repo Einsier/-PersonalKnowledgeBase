@@ -2,8 +2,8 @@
 [Einsier's space](https://space.einsier.com/)
 
 ## Vuepress 和 主题
--[vuepress](https://vuepress.vuejs.org/zh/)
--[vuepress-theme-vdoing](https://github.com/xugaoyi/vuepress-theme-vdoing)
+- [vuepress](https://vuepress.vuejs.org/zh/)
+- [vuepress-theme-vdoing](https://github.com/xugaoyi/vuepress-theme-vdoing)
 
 ## 环境配置
 1. 安装 [Node.js](https://nodejs.org/zh-cn/download/) 并配置环境变量
