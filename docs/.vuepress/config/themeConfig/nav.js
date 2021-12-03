@@ -18,6 +18,12 @@ module.exports = [
           { text: 'ElasticSearch', link: '/pages/03f97d/' },
         ],
       },
+      {
+        text: '框架',
+        items: [
+          { text: 'RPC', link: '/pages/3ad088/' },
+        ],
+      },
     ],
   },
   {
